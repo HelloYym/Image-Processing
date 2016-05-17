@@ -1,0 +1,40 @@
+﻿生成启动时间为 2015/12/20 15:25:04。
+     1>项目“C:\Users\yangyuming\Desktop\SimpleImage-For_2010\CImage.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\SimpleImage.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildView.cpp
+         ChildView.cpp
+     1>ChildView.cpp(48): warning C4244: “=”: 从“double”转换到“byte”，可能丢失数据
+     1>ChildView.cpp(65): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>ChildView.cpp(215): warning C4101: “avg”: 未引用的局部变量
+     1>ChildView.cpp(217): warning C4189: “dx”: 局部变量已初始化但不引用
+     1>ChildView.cpp(323): warning C4244: “=”: 从“double”转换到“byte”，可能丢失数据
+     1>ChildView.cpp(388): warning C4244: “=”: 从“double”转换到“byte”，可能丢失数据
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\SimpleImage.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\SimpleImage.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\yangyuming\Desktop\SimpleImage-For_2010\Debug\SimpleImage.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\SimpleImage.lib" /MACHINE:X86 Debug\CImage.res
+         Debug\SimpleImage.exe.embed.manifest.res
+         Debug\ChildView.obj
+         Debug\CImage.obj
+         Debug\InfoDlg.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj /SAFESEH 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SimpleImage.exe.embed.manifest" /manifest Debug\SimpleImage.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         CImage.vcxproj -> C:\Users\yangyuming\Desktop\SimpleImage-For_2010\Debug\SimpleImage.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\SimpleImage.unsuccessfulbuild”。
+         正在对“Debug\SimpleImage.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\yangyuming\Desktop\SimpleImage-For_2010\CImage.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.73
